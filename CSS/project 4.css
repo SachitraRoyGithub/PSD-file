@@ -1,0 +1,808 @@
+@font-face {
+    font-family: popbold;
+    src: url('../FONT/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: pop;
+    src: url('../FONT/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: nun;
+    src: url('../FONT/Nunito-VariableFont_wght.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER PART -----  */
+/* Navigatiion */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+nav{
+    /* border: 5px solid;  */
+    width: 100%;
+    padding: 20px 57px;
+    background-color: rgba(72, 119, 185, 0.5);
+   
+}
+.nav_maindiv{
+    /* background-color: aqua;  */
+    width: 100%;
+    display: flex;
+     justify-content: space-between;
+     flex: 0 0 auto;
+     }
+.tog_res{
+   /* background-color: aliceblue; */
+   width: 10.5%;
+   /* padding-right: 10; */
+}
+.nav_logo{
+    /* background-color: aliceblue; */
+    width: 100%; 
+    /* margin-left: 5%; */
+}
+.toggle{
+   display: none;
+}
+.nav_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav_list{
+    font-family: pop; 
+    font-size: 25px;
+    /* font-size: 1.5vw; */
+     display: flex;
+     /* background-color: rgb(238, 149, 33); */
+    color: white; 
+    justify-content: end;
+    align-items: end; 
+    gap: 6%; 
+    padding-bottom: 10px; 
+    width: 80%;
+    /* padding: 0 10px; */
+    /* padding-right: 10px; */
+}
+.nav_search{
+    /* margin-left: 30px; */
+    /* background-color: #edc315; */
+    /* width: 10%; */
+}
+
+
+/* Banner Part --- -------------------------------------- */
+.banner_sec{
+    /* border: 5px solid; */
+    background-image: url('../IMAGES/banimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bann_main{
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 303px;
+    padding-bottom: 238px;
+    color: white;
+}
+.bann_main h1{
+    font-family: popbold;
+    font-size: 68px;
+}
+ .bann_main p{
+    font-family: nun;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ .bann_main button{
+    width: 22.7%;
+    height: 58px;
+    font-family: popbold;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background: #edc315;
+    margin-top: 2vw;
+    border-radius: 80px;
+    color: aliceblue;
+    margin-top: 50px;
+ }
+
+ /* circle Part --- ------------------------------------------------------------- */
+ .circle_sec{
+    /* border: 5px solid ; */
+    background-color: #739ee3;
+    /* padding-top: 100px; */
+    padding-bottom: 110px;
+ }
+ .circle_maindiv{
+   background-image: url('../IMAGES/circlebg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 3px solid red; */
+    /* background-size: co; */
+    /* background-color: rgb(224, 164, 84,0.5); */
+   padding-top: 100px;
+    /* padding-bottom: 0px; */
+   color: white;
+ }
+ /* .emni{
+   padding-top: 100px;
+ } */
+ .circle_head{
+    /* background-color: aqua; */
+    text-align: center;
+    /* padding-top: 100px; */
+    
+ }
+ .circle_head h2{
+    font-family: popbold;
+    font-size: 60px;
+    margin-top: ;
+ }
+ .circle_head p{
+    font-family: nun;
+    font-size: 26px;
+    margin-top: 56px;
+ }
+ .circle_imgdiv{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding-top: 60px;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* padding-bottom: 100px */
+ }
+
+
+
+ .circle_imgdiv img{
+    width: 100%;
+    height: 100%;
+ }
+ .circle_imgdivA{
+    width: 25%;
+    position: relative;
+    /* border: 2px solid; */
+ }
+
+ .circle_imgdivB{
+    width: 25%;
+    /* border: 2px solid; */
+ }
+ .circle_imgdivC{
+    width: 25%;
+    /* border: 2px solid; */
+    position: relative;
+ }
+ .circle_imgdiv h2{
+    font-family: popbold;
+    font-size: 35px;
+    margin-top: 30px;
+ }
+ .circle_imgdiv p{
+    font-family: pop;
+    font-size: 18px;
+    margin-top: 30px;
+ }
+ .just_T img{
+    position: absolute;
+    width: 21%;
+    height: 15%;
+    bottom: -100px;
+    /* top: 0; */
+    right: 1%;
+    z-index: 5;
+ }
+ .circle_imgdivA #petcare{
+   position: absolute;
+   height: 60px;
+   width: 20%;
+   left: 5.6vw;
+   bottom: -155px;
+ }
+
+ /* Rating Part -------------------------------------------------- */
+ .rate_sec{
+   padding-top: 96px;
+   padding-bottom: 270px;
+   color: white;
+   background-image: url('../IMAGES/ratebg.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* padding: 0 130px; */
+   /* margin-top: 100px; */
+ }
+ .rate_head{
+   /* background-color: aqua; */
+   text-align: center;
+}
+.rate_head h2{
+   font-family: popbold;
+   font-size: 60px;
+}
+.rate_head p{
+   font-family: nun;
+   font-size: 26px;
+   margin-top: 56px;
+}
+.rate_main{
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   gap: 12%;
+   padding-top: 130px;
+   /* padding: 0 30px; */
+}
+.rate_main div{
+   border: 10px solid white;
+   width: 298px;
+   height: 298px;
+   padding-top: 86px;
+   padding-bottom: 86px;
+   text-align: center;
+   border-radius: 50%;
+}
+.rate_main h3{
+   font-family: popbold;
+   font-size: 52px;
+}
+.rate_main p{
+   font-family: pop;
+   font-size: 15px;
+}
+
+/* Right Circle Part------------ --------------------------------*/
+
+.rightCircle_sec{
+   /* border: 5px solid; */
+   display: flex;
+   justify-content: center;
+   /* padding-right: 90px;
+   padding-left: 135px; */
+   padding-top: 200px;
+   padding-bottom: 140px;
+   background-color: #5380c1;
+}
+.rightCircle_left{
+   /* background-color: aqua; */
+   padding-top: 130px;
+   width: 40%;
+   position: relative;
+}
+.rightCircle_left h3{
+   font-family: popbold;
+   font-size: 60px;
+}
+.rightCircle_left p{
+   font-family: nun;
+   font-size: 26px;
+   margin-top: 20px;
+}
+.rightCircle_left button{
+   width: 53%;
+   height: 55px;
+   font-family: popbold;
+   font-size: 25px;
+   font-weight: bold;
+   border: none;
+   background: #edc315;
+   margin-top: 2vw;
+   border-radius: 80px;
+   color: aliceblue;
+   /* margin-top: 10px; */
+}
+.rightCircle_right{
+   /* background-color: antiquewhite; */
+   width: 40%;
+   position: relative;
+}
+.rightCircle_right img{
+   width: 100%;
+}
+.rightCircle_left #rightA{
+   position: absolute;
+   top: -3vw;
+   left: 0;
+}
+.rightCircle_left #rightB{
+   position: absolute;
+   bottom: -50px;
+   width: 15%;
+   left: 0;
+}
+.rightCircle_right #rightC{
+   position: absolute;
+   width: 15%;
+   height: 70px;
+   bottom: -180px;
+   left: 28vw;
+}
+
+
+
+/* Mirror circle PArt ------ ------------------------ */
+.mirrorCircle_sec{
+   /* border: 5px solid; */
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   /* padding-right: 90px;
+   padding-left: 135px; */
+   padding-top: 200px;
+   padding-bottom: 140px;
+   background-color: #739ee3;
+}
+.mirrorCircle_left{
+   /* background-color: aqua; */
+   padding-top: 130px;
+   width: 45%;
+   position: relative;
+   padding-left: 100px;
+}
+.mirrorCircle_left h3{
+   font-family: popbold;
+   font-size: 60px;
+}
+.mirrorCircle_left p{
+   font-family: nun;
+   font-size: 26px;
+   margin-top: 20px;
+}
+.mirrorCircle_left button{
+   width: 53%;
+   height: 55px;
+   font-family: popbold;
+   font-size: 25px;
+   font-weight: bold;
+   border: none;
+   background: #edc315;
+   margin-top: 2vw;
+   border-radius: 80px;
+   color: aliceblue;
+   /* margin-top: 10px; */
+}
+.mirrorCircle_right{
+   /* background-color: antiquewhite; */
+   width: 40%;
+   position: relative;
+   /* padding-left: ; */
+}
+.mirrorCircle_right img{
+   width: 100%;
+}
+.mirrorCircle_left #rightA{
+   position: absolute;
+   top: -7vw;
+   left: -35vw;
+}
+.mirrorCircle_left #rightB{
+   position: absolute;
+   bottom: -130px;
+   left: -35vw;
+}
+.mirrorCircle_right #rightC{
+   position: absolute;
+   width: 15%;
+   height: 70px;
+   bottom: -100px;
+   left: 65vw;
+}
+
+/* Pricing Part --------- */
+
+.price_sec{
+   /* border: 5px solid; */
+   padding-top: 70px;
+   padding-bottom: 80px;
+   background-color: #5380c1;
+}
+.price_head{
+   /* background-color: aqua; */
+   text-align: center;
+   color: white;
+}
+.price_head h3{
+   font-family: popbold;
+   font-size: 60px;
+}
+.price_head p{
+   font-family: nun;
+   font-size: 26px;
+   margin-top: 40px;
+}
+.price_mainCards{
+   display: flex;
+   justify-content: center;
+   gap: 5.8%;
+   margin-top: 90px;
+}
+.price_cardA{
+   background-color: rgb(251, 253, 253);
+   width: 25%;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+}
+.price_cardA .price_top{
+   font-size: 35px;
+   font-family: popbold;
+   color: #739ee3;
+}
+.price_Icon img{
+   width: 100%;
+}
+.price_Icon{
+   /* background-color: antiquewhite; */
+   width: 30%;
+   display: block;
+   margin: auto;
+   margin-top: 50px;
+}
+.price_rate{
+   font-size: 35px;
+   font-family: popbold;
+   margin-top: 50px;
+   color: #739ee3;
+}
+.price_para{
+   font-size: 20px;
+   font-family: pop;
+   margin-top: 20px;
+   color: #739ee3;
+}
+.price_cardA button{
+   width: 90%;
+height: 55px;
+font-family: popbold;
+font-size: 25px;
+font-weight: bold;
+border: none;
+background: #edc315;
+/* margin-top: 2vw; */
+border-radius: 80px;
+color: aliceblue;
+margin-top: 25px;
+}
+
+/* Lorem Paart--------------- */
+
+.lorem_sec{
+   /* border: 5px solid; */
+   /* padding-bottom: 180px; */
+   background-color: #739ee3;
+   color: white;
+   
+}
+.lorem_forBg{
+   /* background-color: aqua; */
+   padding-top: 100px;
+   padding-bottom: 300px;
+   background-image: url('../IMAGES/Lorem_bg.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: 0px 100px;
+}
+.lorem_head{
+   /* background-color: aqua; */
+   text-align: center;
+}
+.lorem_head h3{
+   font-family: popbold;
+   font-size: 60px;
+}
+.lorem_head p{
+   font-family: nun;
+   font-size: 26px;
+   margin-top: 56px;
+}
+
+
+.lorem_maindivA{
+   /* background-color: bisque; */
+   width: 40%;
+}
+
+.lorem_A{
+   /* background-color: red; */
+   display: flex;
+   gap: 10%;
+}
+.lorem_img{
+   width: 65%;
+   padding-top: 20px;
+}
+.lorem_img img{
+   width: 100%;
+}
+.lorem_para h2{
+   font-family: popbold;
+   font-size: 25px;
+}
+.lorem_para p{
+   font-family: pop;
+   font-size: 18px;
+   margin-top: 10px;
+}
+.lorem_flex{
+   display: flex;
+   justify-content: center;
+   gap: 7%;
+   margin-top: 100px;
+}
+.mrg{
+   margin-top: 90px;
+}
+
+/* Jenny Part ----------------------------------------------------------- */
+.jenny_sec{
+   /* border: 3px solid; */
+   padding: 0 200px;
+   padding-top: 456px;
+   padding-bottom: 250px;
+   background-image: url('../IMAGES/jenny_bg.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white;
+}
+.jenny_maindiv{
+   /* background-color: aqua; */
+   text-align: center;
+}
+.jenny_maindiv p{
+   font-family: pop;
+   font-size: 35px;
+}
+.jenny_maindiv h4{
+   font-size: 35px;
+   font-family: popbold;
+   margin-top: 70px;
+}
+
+/* FOOTER PART ------------------------------ */
+.foot_sec{
+   border: 3px solid;
+   display: flex;
+   justify-content: center;
+   padding: 0 56px;
+   padding-top: 94px;
+   padding-bottom: 60px;
+   background-color: #343434;
+   color: white;
+}
+.foot_A{
+   /* background-color: yellow; */
+   width: 48%;
+   padding-right: 120px;
+}
+.title{
+   font-size: 25px;
+   font-family: popbold;
+   margin-bottom: 20px;
+}
+.title_para{
+   font-size: 18px;
+   font-family: pop;
+}
+.foot_A i{
+   background-color: white;
+   margin-left: 5%;
+   padding: 8px;
+   border-radius: 100px;
+   font-size: 25px;
+   color: black;
+}
+#for_footicon{
+  position: relative;
+  left: -2vw;
+}
+#fb{
+   padding-left: 12px;
+   padding-right: 12px;
+}
+.foot_B{
+   width: 19%;
+}
+.about{
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-family: popbold;
+}
+.foot_C{
+   width: 19%;
+}
+.services{
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-family: popbold;
+}
+.foot_D{
+   width: 19%;
+}
+.order{
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-family: popbold;
+}
+.p{
+   font-size: 18px;
+   font-family: pop;
+   margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 1285px)  {
+   
+   .circle_maindiv{
+      /* border: 5px solid ; */
+      /* background-color: #739ee3; */
+      /* background-image: url('../IMAGES/circlebg.png'); */
+      background-size: 100% 130%;
+      background-position: center;
+      background-repeat: no-repeat;
+    /* background-size: cover; */
+   }
+   .rate_main div{
+   border: 10px solid white;
+   width: 250px;
+   height: 250px;
+   padding-top: 56px;
+   padding-bottom: 86px;
+   text-align: center;
+   border-radius: 50%;
+}
+}
+
+@media screen and (max-width: 991px) {
+   /* Navigation Bar...------------ */
+   .nav_maindiv{
+      flex-direction: column;
+   }
+   
+   .nav_list{
+      flex-direction: column;
+      align-items: center;
+      /* text-align: center; */
+      width: 100%;
+      /* display: block; */
+      /* background-color: #5380c1; */
+      font-size: 20px;
+   }
+   .toggle{
+      display: block;
+      padding-top: 20px;
+      font-size: 30px;
+   }
+  .tog_res{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+  }
+  .nav_logo{
+   width: 20%;
+  }
+
+  /* Circle Part ----------------------- */
+  .circle_imgdiv{
+   flex-direction: column;
+   align-items: center;
+  }
+  .circle_imgdivA{
+   width: 50%;
+}
+  .circle_imgdivB{
+   width: 50%;
+}
+  .circle_imgdivC{
+   width: 50%;
+}
+.circle_imgdiv h2{
+   font-size: 55px;
+}
+.circle_imgdiv p{
+   font-size: 30px;
+}
+/* Rating Part ----------------------------- */
+.rate_main{
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+}
+ 
+/* Right Circle Part------------------------ */
+.rightCircle_sec{
+   flex-direction: column;
+   align-items: center;
+}
+.rightCircle_left{
+   text-align: center;
+   width: 80%;
+}
+.rightCircle_right{
+   margin-top: 50px;
+   width: 50%;
+}
+.rightCircle_left #rightB{
+   opacity: 0.5;
+   transform: scale(0.6);
+}
+
+/* Mirror Circle Part----------------- ---------------- */
+.mirrorCircle_sec{
+   flex-direction: column-reverse;
+   align-items: center;
+}
+.mirrorCircle_left{
+   text-align: center;
+   width: 80%;
+}
+.mirrorCircle_right{
+   margin-top: 50px;
+   width: 50%;
+}
+ 
+/* Pricing Part -------------------------------------------- */
+.price_mainCards{
+   flex-direction: column;
+   align-items: center;
+   gap: 80px;
+}
+.price_cardA{
+   width: 50%;
+}
+/* Lorem Part ----------------------------------------- */
+.lorem_flex{
+   /* display: flex; */
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+}
+.lorem_maindivA{
+   width: 80%;
+}
+.lorem_maindivA h2{
+   font-size: 40px;
+}
+.lorem_img{
+   padding-top: 0;
+}
+
+/* FOOTER PART ---------------------- */
+.foot_sec{
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.foot_A{
+   /* background-color: yellow; */
+   width: 70%;
+   padding-right: 0px;
+   /* text-align: center; */
+}
+.foot_B{
+   width: 70%;
+}
+
+
+
+
+
+
+}

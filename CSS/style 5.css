@@ -1,0 +1,801 @@
+@font-face {
+    font-family: latobold;
+    src: url('../FONT/Lato-Bold.ttf');
+}
+@font-face {
+    font-family: latolight;
+    src: url('../FONT/Lato-Light.ttf');
+}
+@font-face {
+    font-family: latoblack;
+    src: url('../FONT/Lato-Black.ttf');
+}
+@font-face {
+    font-family: latobold;
+    src: url('../FONT/Lato-Bold.ttf');
+}
+@font-face {
+    font-family: cardobold;
+    src: url('../FONT/Cardo-Bold.ttf');
+}
+@font-face {
+    font-family: latoregular;
+    src: url('../FONT/Lato-Regular.ttf');
+}
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9e7e7;
+}
+header{ padding-top: 70px;padding-bottom: 70px;}
+nav{
+    /* border: 3px solid red; */
+    display: flex;
+    padding: 0 100px;
+}
+.toggle{
+    display: none;
+}
+.nav_lists{
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+.nav_lists #home{
+    font-family: latoblack;
+    font-size: 20px;
+}
+.nav_lists .light{
+    font-family: latolight;
+    font-size: 20px;
+}
+.nav_btn{
+    width: 60%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: end;
+}
+.nav_btn button{
+    width: 30%;
+    height: 150%;
+    font-size: 20px;
+    font-family: latoblack;
+    background: transparent;
+    border: 3px solid;
+}
+/* Banner Part ------------------- */
+.ban_sec{
+    /* border: red solid; */
+    display: flex;
+    padding: 0 100px;
+    padding-bottom: 150px;
+    background-image: url('../IMAGES/scruble A.png');
+    background-repeat: no-repeat;
+    background-position: 0% -20%;
+}
+.banDiv_A{
+    /* background-color: aqua; */
+    width: 40%;
+}
+.banDiv_A h1{
+    font-size: 5vw;
+    /* font-size: 70px; */
+    font-family: cardobold;
+    font-weight: bold;
+    line-height: 70px;
+}
+.banDiv_A p{
+    font-family: latoregular;
+    margin-top: 20px;
+}
+.banDiv_A button{
+    width: 60%;
+    height: 45px;
+    font-size: 16px;
+    background-color: #232323;
+    color: white;
+    font-family: latoblack;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.banDiv_B{
+    /* background-color: rgb(0, 255, 0); */
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.ban_img img{
+    width: 100%;
+}
+.ban_img{
+    width: 95%;
+}
+/* Banner Part -------------- */
+.memory_sec{
+    /* border: 3px solid; */
+    background-color: #232323;
+    color: white;
+    padding: 50px 0;
+}
+.mem_div{
+    /* background-color: aqua; */
+    text-align: center;
+    position: relative;
+}
+.mem_div h2{
+    font-family: cardobold;
+    font-size: 48px;
+    line-height: 60px;
+    /* font-weight: bold; */
+}
+.mem_div p{
+    font-family: latoregular;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.mem_div button{
+    width: 18%;
+    height: 45px;
+    font-size: 20px;
+    font-family: latoblack;
+    background: transparent;
+    border: 3px solid white;
+    margin-top: 35px;
+    color: white;
+}
+.mm_A{
+    /* background-color: red; */
+    width: 30%;
+    position: absolute;
+    left: 0;
+}
+.mm_A img{
+    width: 100%;
+}
+.mm_B{
+    /* background-color: red; */
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 220px;
+}
+.mm_B img{
+    width: 100%;
+   
+}
+
+/* Watch part ------- */
+.watch_sec{
+    /* background-color: aqua; */
+    /* border: 5px solid ; */
+    padding: 160px 0;
+}
+.watch_maindiv{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 4.3%;
+}
+.watch_A{
+    /* background-color: bisque; */
+    width: 26.6%;
+}
+.watch_img{
+    width: 100%;
+}
+.watch_A img{
+    width: 100%;
+}
+.watch_just{
+    border: 2px solid;
+    width: 12%;
+    height: 0;
+    margin-top: 30px;
+}
+.watch_A h3{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: cardobold;
+}
+.watch_A p{
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: latoregular;
+    text-align: justify;
+}
+
+/* Never Section ------------------ */
+.never_sec{
+    /* border: 5px solid; */
+    padding: 180px 0;
+    padding-bottom: 250px;
+    position: relative;
+    background-image: url('../IMAGES/Scribble LightNev.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.never_div{
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.nev_img{
+    /* border: 3px solid red; */
+    width: 6%;
+    display: block;
+    margin: auto;
+}
+.nev_img img{
+    width: 100%;
+}
+.nev_head{
+    /* border: 3px solid red; */
+    width: ;
+    font-size: 110px;
+    font-family: cardobold;
+    margin-top: 50px;
+}
+.nev_head span{
+    text-decoration: underline 5px ;
+    font-style: italic;
+    /* line-height: 5px; */
+}
+.nev_para{
+    /* border: 3px solid red; */
+    font-family: latoblack;
+    font-size: 22px;
+    margin-top: 50px;
+
+}
+.nev_scrub{
+    width: 30%;
+    /* border: 3px solid red; */
+    position: absolute;
+    left: 10%;
+}
+.nev_scrub img{
+    width: 100%;
+}
+
+
+
+/* Mount Part ----------- */
+.mount_sec{
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.mount_leftdiv{
+    /* border: 3px solid red; */
+    width: 41.3%;
+}
+.mount_leftdiv img{
+    width: 100%;
+}
+.mount_info{
+    /* border: 3px solid purple; */
+    /* width: 100%; */
+    width: 43.9%;
+}
+.mount_info img{
+    width: 75%;
+}
+.writings{
+    /* border: 3px solid; */
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.write_A{
+    /* border: 3px solid red; */
+    font-size: 42px;
+    width: 50%;
+    font-family: cardobold;
+    text-decoration: underline;
+}
+.write_B{
+    /* border: 3px solid red; */
+    width: 50%;
+    font-family: latoregular;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+#M_only{
+    margin-top: 30px;
+}
+.mount_tape{
+    /* background-color: aqua; */
+    height: 32%;
+    position: absolute;
+    left: 3.5%;
+    top: 255px;
+}
+.mount_tape img{
+    width: 100%;
+}
+.mount_arrow{
+    width: 10.6%;
+    position: absolute;
+    bottom: 7vw;
+    right: 7%;
+    /* top: 800px; */
+    /* background-color: rgb(247, 142, 6); */
+}
+.mount_arrow img{
+    width: 100%;
+    /* height: ; */
+}
+
+/* Anywhere Section---------- */
+
+.anywhere_sec{
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: center;
+    padding: 156px 0;
+    background-color: #232323;
+    position: relative;
+    overflow: hidden;
+}
+.anywhere_text{
+    /* background-color: aqua; */
+    width: 47.7%;
+    padding: 0 90px;
+    color: white;
+}
+.head{
+    font-family: cardobold;
+    font-size: 64px;
+}
+.any_paraA{
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    text-align: justify;
+}
+#anyP_1{
+    font-size: 26px;
+    font-family: latoblack;
+}
+#anyP_2{
+    font-size: 16px;
+    font-family: latoregular;
+    margin-top: 20px;
+}
+.any_paraB{
+    margin-top: 30px;
+    text-align: justify;
+}
+.anywhere_img{
+    /* background-color: aquamarine; */
+    width: 55.4%;
+}
+.anywhere_img img{
+    width: 100%;
+}
+.anyScrub{
+    width: 40%;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+}
+.anyScrub img{
+    width: 100%;
+}
+
+/* Plus Part ---------------------- */
+.plus_sec{
+    /* border: 5px solid ; */
+    display: flex;
+    justify-content: center;
+    gap: 5.4%;
+    padding: 170px 40px;
+}
+.plus_A{
+    /* background-color: aqua; */
+    width: 54.3%;
+}
+.plus_head{
+    font-size: 100.5px;
+    font-family: cardobold;
+}
+
+.with_plus{
+    /* background-color: bisque; */
+    margin-top: 90px;
+}
+.with_plus div{
+    border-bottom: 3px solid;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-family: latoregular;
+}
+#spc{
+    border-top: 3px solid;
+}
+#plus_cross{
+    font-size: 38px;
+    font-family: latoregular;
+    font-weight: bold;
+}
+.plus_B{
+    /* background-color: blue; */
+    width: 39%;
+    padding-top: 10px;
+}
+.plus_B img{
+    width: 100%;
+}
+/* Say Part --------------------------- */
+.say_sec{
+    /* border: 5px solid; */
+    padding-bottom: 80px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.say_head{
+    font-family: cardobold;
+    font-size: 84px;
+    text-align: center;
+}
+.say_cards{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 70px;
+    padding: 0 50px;
+}
+.say_cardA{
+    /* background-color: aqua; */
+    width: 28.5%;
+    padding: 62px 45px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.profile{
+    /* background-color: aliceblue; */
+    width: 47.7%;
+    display: block;
+    margin: auto;
+}
+.profile img{
+    width: 100%;
+}
+.say_cardA span p{
+    font-size: 21px;
+    font-family: latoblack;
+    margin-top: 66px;
+}
+.say_cardA p{
+    font-family: latoregular;
+    margin-top: 28px;
+
+}
+.sayimgA{
+    width: 24%;
+    position: absolute;
+    top: 0;
+}
+.sayimgA img{
+    width: 100%;
+}
+.sayimgB{
+    width: 29.2%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sayimgB img{
+    width: 100%;
+}
+.left_say{
+    /* background-color: aqua; */
+    width: 6.5%;
+    height: 5.5vw;
+    position: absolute;
+    left: 5.5%;
+    top: 480px;
+}
+.left_say img{
+    width: 100%;
+}
+.right_say{
+    /* background-color: aqua; */
+    width: 6.5%;
+    height: 5.5vw;
+    position: absolute;
+    position: absolute;
+    right: 5.5%;
+    top: 480px;
+}
+.right_say img{
+    width: 100%;
+}
+/* Update Paart=----------------- */
+.update_sec{
+    /* border: 5px solid ; */
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding-bottom: 200px;
+}
+.update_form{
+    /* background-color: aqua; */
+    width: 33.9%;
+}
+.update_head{
+    font-size: 105px;
+    text-align: center;
+}
+.update_input{
+    display: flex;
+    flex-direction: column;
+}
+.update_input input{
+    height: 4vw;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding-left: 10px;
+    background: transparent;
+}
+.update_input input::placeholder{
+    font-family: latoblack;
+    font-size: 17px;
+    color: #3b3b3b;
+}
+textarea{
+    margin-top: 20px;
+        border-radius: 7px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-left: 10px;
+    background: transparent;
+}
+textarea::placeholder{
+    /* margin-top: 20px; */
+    font-family: latoblack;
+    font-size: 17px;
+    color: #232323;
+}
+
+.update_input button{
+    height: 4vw;
+    margin-top: 45px;
+    font-family: latoregular;
+    font-size: 20px;
+    background-color: #232323;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.update_pic{
+    /* background-color: aquamarine; */
+    width: 45%;
+}
+.update_pic img{
+    width: 100%;
+}
+
+/* FOOTER PART ----------------------------- */
+
+.foot_sec{
+    /* border: 5px solid; */
+    padding: 115px 0;
+    padding-bottom: 0;
+    background-color: #a5a5a5;
+}
+.foot_mainDiv{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 5.8%;
+}
+.foot_head{
+    /* background-color: blue; */
+    font-family: cardobold;
+    font-size: 52px;
+}
+.foot_mainDiv span{
+    font-size: 25px;
+    font-family: latoblack;
+    /* padding-bottom: 70px; */
+}
+.foot_mainDiv p{
+    font-size: 22px;
+    font-family: latoregular;
+    margin-top: 40px;
+}
+.quick_div{
+    margin-top: 90px;
+}
+.quick{
+    /* background-color: greenyellow; */
+}
+.travels{
+    /* background-color: bisque; */
+    padding-top: 90px;
+}
+.recom{
+    /* background-color: orange; */
+    padding-top: 90px;
+}
+.miss{
+    margin-top: 90px;
+}
+.foot_lower{
+    text-align: center;
+    margin-top: 125px;
+}
+.foot_lower p{
+    font-size: 22px;
+    font-family: latoregular;
+}
+.foot_png{
+    /* background-color: aquamarine; */
+    width: 27%;
+}
+.foot_png img{
+    width: 100%;
+}
+
+/* RESPONSIVE PORTION ================== */
+@media screen and (max-width: 991px){
+
+  /* Navigation Part------------------------   */
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_lists{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav_lists p{
+        margin-top: 15px;
+    }
+    .nav_btn{
+        width: 100%;
+        /* display: block;
+        margin: auto; */
+        /* background-color: aqua; */
+        justify-content: center;
+    }
+    .nav_btn button{
+        border: none;
+        margin-top: 15px;
+        
+    }
+    .toggle{
+        display: block;
+        margin-left: 50px;
+        font-size: 18px;
+
+    }
+/* Watch Part --------------------------- */
+    .watch_maindiv{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .watch_A{
+        width: 90%;
+    }
+    .watch_A p{
+        font-size: 25px;
+    }
+
+  /* Mount Part --------------------   */
+  .mount_sec{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mount_leftdiv{
+    width: 90%;
+  }
+  .mount_info{
+    width: 90%;
+    display: block;
+    /* margin: auto; */
+  }
+  .info_imgA{
+    background-color: aqua;
+    width: 100%;
+  }
+  .info_imgA img{
+    width: 100%;
+  }
+
+/* Anywhere  Part ---------------   */
+.anywhere_sec{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.anywhere_img{
+    width: 90%;
+}
+.anywhere_text{
+    width: 80%;
+}
+
+/* Plus Part ------------------ */
+.plus_sec{
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.plus_B{
+    width: 90%;
+}
+.plus_A{
+    width: 90%;
+}
+
+/* Say Part----------------  */
+.say_cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.say_cardA{
+    width: 90%;
+   
+}
+.say_cardA span p{
+    font-size: 50px;
+}
+.say_cardA p{
+    font-size: 20px;
+}
+.sayimgA{
+    top: 100px;
+    width: 15%;
+}
+
+/* Update Part --------------- */
+.update_sec{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.update_pic{
+    width: 90%;
+}
+.update_form{
+    width: 90%;
+
+}
+/* FOOTER PART ------------------------------- */
+.foot_mainDiv{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+}
+
+
+
+
+
